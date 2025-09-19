@@ -2,6 +2,8 @@
 
 A simple, responsive food-ordering front-end built with **HTML**, **CSS**, and **Vanilla JavaScript**. The project dynamically fetches menu items from **TheMealDB API** and provides interactive cart functionality.
 
+Live Demo: [Foodie Website on Vercel](https://foodie-website-gamma.vercel.app/)
+
 ---
 
 ## 🔎 Overview
@@ -94,17 +96,20 @@ Example product item format used in the code:
 }
 ```
 
-
 ## ♻️ Future Improvements
 
 * Checkout & payment flow
 * Admin dashboard to add/edit menu items
 * Login & user orders
+* Save cart to localStorage or backend
 * Search & filter for menu items
+* Accessibility improvements and a11y audit
 
 ---
 
 ## 🤝 Contributing
 
 Contributions are welcome — fork the repo and open a pull request with improvements or bug fixes.
+---
+
 
