@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Foodie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex between wrapper nav-links">
+            <a href="#" class="logo">Foodie</a>
+            <!-- desktop nav -->
+            <ul class="navlist flex gap-3">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="./services.html" class="active">Services</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="desktop-action flex gap-2">
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-value">0</span>
+                </a>
+                <a href="./login.html" class="btn">
+                    Login
+                    &nbsp;
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+                <a href="#" class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+            <!-- mobile nav -->
+            <ul class="mobile-menu nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="./services.html" class="active">Services</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./login.html" class="btn">
+                        Login
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="hero-section flex wrapper gap-4">
+                <div class="content">
+                    <h1>
+                        Our <span>Service</span>
+                    </h1>
+                    <p class="para">
+                        From doorstep delivery to event catering, we make every meal special.
+                    </p>
+                    <div class="flex gap-2">
+                        <a href="./menu.html" class="btn">Explore Menu</a>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img src="./IMG/delivery-boy.png">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>What We Offer</h5>
+                    <h2>Bringing Flavor & Convenience</h2>
+                </div>
+                <div class="flex text-center mt-4 gap-4">
+                    <div class="services-card">
+                        <div class="images-container">
+                            <img src="./IMG/fast-delivery.png">
+                        </div>
+                        <h3>Fast Food Delivery</h3>
+                        <p>Get your favorite dishes delivered hot and fresh right at your doorstep.</p>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="images-container">
+                            <img src="./IMG/fast-delivery.png">
+                        </div>
+                        <h3>Catering Services</h3>
+                        <p>Hosting a party or event? Let us handle the food — fresh, tasty, and on time.</p>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="images-container">
+                            <img src="./IMG/best-quality.png">
+                        </div>
+                        <h3>Dine-In Experience</h3>
+                        <p>Enjoy the comfort of our cozy space and savor freshly prepared meals.</p>
+                    </div>
+
+                </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Why Choose Us</h5>
+                    <h2>Because We Care About Quality</h2>
+                </div>
+                <div class="flex mt-4 gap-4 text-center">
+                    <div class="services-card">
+                        <i class="fa-solid fa-leaf fa-2x mb-1"></i>
+                        <h3>Fresh Ingredients</h3>
+                        <p>We use locally sourced, fresh ingredients for every dish we serve.</p>
+                    </div>
+
+                    <div class="services-card">
+                        <i class="fa-solid fa-hand-holding-heart fa-2x mb-1"></i>
+                        <h3>Customer First</h3>
+                        <p>Your satisfaction is our priority — we listen, adapt, and improve constantly.</p>
+                    </div>
+
+                    <div class="services-card">
+                        <i class="fa-solid fa-shield-heart fa-2x mb-1"></i>
+                        <h3>Hygienic & Safe</h3>
+                        <p>We maintain top hygiene and safety standards for your peace of mind.</p>
+                    </div>
+                </div>
+                <!-- Cart tab -->
+                <div class="cart-tab">
+                    <h3>Your cart</h3>
+                    <div class="cart-list">
+                        <!-- <div class="item">
+                            <div class="item-image">
+                                <img src="./IMG/burger.png">
+                            </div>
+                            <div>
+                                <h4>Double Beef Burger</h4>
+                                <h4 class="item-total">Rs.250</h4>
+                            </div>
+                            <div class="flex">
+                                <a href="#" class="quantity-btn">
+                                    <i class="fa-solid fa-minus"></i>
+                                </a>
+                                <h4 class="quantity-value">1</h4>
+                                <a href="#" class="quantity-btn">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                        </div> -->
+
+                    </div>
+                    <div class="total-container">
+                        <h4>Total:</h4>
+                        <h4 class="cart-total">Rs 0.00</h4>
+                    </div>
+                    <div class="btn-container flex gap-2">
+                        <a href="#" class="btn close-btn">Close</a>
+                        <a href="#" class="btn">Check Out</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section>
+            <div class="wrapper p-top">
+                <div class="app-container flex between">
+                    <div class="image-container">
+                        <img src="/IMG/mobile-app.png" alt="mobile">
+                    </div>
+                    <div class="content">
+                        <h5>Our Application</h5>
+                        <h2>Simple Way To <br>Order Your Food</h2>
+                        <p class="para">Discover food wherever <br>and get your food delivery quickly</p>
+                        <a href="#" class="btn">Get The App</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="flex wrapper gap-4">
+                <div class="footer-wrapper ">
+
+                    <a href="#" class="logo">Foodie.</a>
+                    <p class="mt-one-half">
+                        We will fill your tummy with delicious<br>
+                        food with fast delivery.
+                    </p>
+                    <div class="flex gap-2 mt-one-half">
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <ul class="footer-wrapper">
+                    <li>
+                        <h4>Our Menu</h4>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Special</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Popular</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Category</a>
+                    </li>
+                </ul>
+                <ul class="footer-wrapper">
+                    <li>
+                        <h4>Company</h4>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Why foodie</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Partner with us</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">About Us</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">FAQ's</a>
+                    </li>
+                </ul>
+                <ul class="footer-wrapper">
+                    <li>
+                        <h4>Support</h4>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Account</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Support Center</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Feedback</a>
+                    </li>
+                    <li class="mt-one-half">
+                        <a href="#" class="footer-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
